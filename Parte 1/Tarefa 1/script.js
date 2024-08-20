@@ -4,7 +4,6 @@ function transformData (){
   .map(user => ({ id: user.id, name: user.name }))
   .sort((a, b) => a.name.localeCompare(b.name));
 }
-
 const users = [
    { id: 1, name: 'Alice', age: 25, isActive: true },
    { id: 2, name: 'Bob', age: 30, isActive: false },
